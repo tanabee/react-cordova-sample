@@ -11,7 +11,6 @@ const startApp = () => {
     </React.StrictMode>,
     document.getElementById('root'),
   )
-  serviceWorker.register()
 }
 
 if (window.cordova) {
